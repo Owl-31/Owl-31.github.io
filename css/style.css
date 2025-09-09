@@ -19,7 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 .inner-width {
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: auto;
   padding: 0 40px;
 }
@@ -301,8 +301,8 @@ section {
 
 /* --------------- Services */
 section.dark {
-  background-color: #353b48;
-  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* background-color: #353b48; */
+  background-color: rgba(0, 0, 0, 0.9);
 }
 section.dark .section-title {
   color: #f1f1f1;
@@ -413,12 +413,12 @@ section.dark .section-title::after {
 }
 
 .work {
-  width: calc(33% - 10px);
-  max-height: 190px;
+  flex: 1 1 400px;   /* min width 300px, then grow */
+  max-width: 600px;  /* avoid being huge on very wide screens */
+  height: 250px;
+  margin: 10px;
+  border-radius: 8px;
   overflow: hidden;
-  border-radius: 5px;
-  margin: 10px 6px;
-  cursor: pointer;
   position: relative;
 }
 .work img {
@@ -552,7 +552,8 @@ section.dark .section-title::after {
   color: #fff;
 }
 footer {
-  background: url(../images/bg.jpg) no-repeat;
+  /* background: url(../images/bg.jpg) no-repeat; */
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
   color: #fff;
   padding: 50px 0;
