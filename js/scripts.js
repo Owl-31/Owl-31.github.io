@@ -44,12 +44,21 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// function toggleDetails(element) {
-//   console.log("import function success")
-//   const info = element.querySelector('.');
-//   const details = info.querySelector('.details');
+// Magnific Popup for grouped image galleries
+$('[class^="gallery"]').each(function() {
+  const group = $(this).attr('class');
+  $('.' + group).magnificPopup({
+    type: 'image',
+    gallery: {
+      enabled: true
+    },
+    image: {
+      titleSrc: item => item.el.find('img').attr('alt')
+    },
+    closeOnContentClick: true,   // 👈 closes when clicking the image
+    mainClass: 'mfp-fade mfp-img-mobile', // nice fade + mobile support
+    removalDelay: 200,
+    fixedContentPos: true
+  });
+});
 
-//   // Toggle the visibility of details
-//   details.classList.toggle('hidden');
-//   element.classList.toggle('zoomed');
-// }
