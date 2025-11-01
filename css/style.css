@@ -119,7 +119,7 @@ html {
   margin-bottom: 60px;
 }
 #home .content h2::after {
-  content: "Analytical";
+  content: "Architect";
   animation: textanim 10s linear infinite;
 }
 @keyframes textanim {
