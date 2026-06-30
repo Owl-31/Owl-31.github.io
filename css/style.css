@@ -953,11 +953,19 @@ footer .sm {
   opacity: 1;
 }
 .blueprint.draw .bp {
-  animation: bp-draw 2.2s ease forwards;
+  animation: bp-draw 7s ease-in-out infinite;
 }
 @keyframes bp-draw {
-  to {
+  0%,
+  8% {
+    stroke-dashoffset: var(--len);
+  }
+  42%,
+  72% {
     stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: var(--len);
   }
 }
 
