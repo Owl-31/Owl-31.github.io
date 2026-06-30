@@ -1,0 +1,86 @@
+[
+  {
+    "title": "General Hospital",
+    "meta": [
+      { "k": "Type", "v": "Healthcare" },
+      { "k": "Location", "v": "Hamirpur" },
+      { "k": "Capacity", "v": "200 beds" }
+    ],
+    "description": "A 200-bedded general hospital located at Hamirpur. The brief includes the Chief Medical Officer / Medical Superintendent office, Emergency, Out-Patient and In-Patient Departments, Operation Theatres, Diagnostic Services, a Maternity ward, an Administrative Block, and Private, Semi-Private and General wards.",
+    "cover": "images/projects/hospital 8.png",
+    "images": [
+      "images/projects/hospital 6.png",
+      "images/projects/hospital 7.png",
+      "images/projects/hospital 1.png",
+      "images/projects/hospital 2.png",
+      "images/projects/hospital 5.png",
+      "images/projects/hospital 3.png"
+    ]
+  },
+  {
+    "title": "NIT Hamirpur Administration Block",
+    "meta": [
+      { "k": "Type", "v": "Institutional" },
+      { "k": "Location", "v": "NIT Hamirpur" },
+      { "k": "Area", "v": "1360 m²" }
+    ],
+    "description": "Reimagining the NIT Hamirpur campus as an inclusive, sustainable and accessible university campus on a flat site. The Administration Block houses the student and registrar offices, accounts and finance, admission and enquiry, a non-technical staff room, the Dean / Director / DSW rooms, and a meeting and archive room.",
+    "cover": "images/projects/ADMIN.png",
+    "images": [
+      "images/projects/view_1_1759249233669.png",
+      "images/projects/ADMIN2.png",
+      "images/projects/ADMIN3.png",
+      "images/projects/ADMIN4.png",
+      "images/projects/WhatsApp Image 2025-11-02 at 15.29.26_19e6cd03.jpg"
+    ]
+  },
+  {
+    "title": "Exhibition Pavilion",
+    "meta": [
+      { "k": "Type", "v": "Exhibition" },
+      { "k": "Location", "v": "Pragati Maidan, New Delhi" }
+    ],
+    "description": "A pavilion redesigned at Pragati Maidan, New Delhi to accommodate exhibitions of all scales — from small exhibits to large equipment — with space for both permanent and temporary displays. The programme includes an entrance hall / lobby / foyer, main and temporary exhibition halls, storage, an administration office with meeting room, a cafeteria / food court, and toilets.",
+    "cover": "images/projects/pavillion 3.png",
+    "images": [
+      "images/projects/pavillion 4.png",
+      "images/projects/pavillion 1.png",
+      "images/projects/pavillion 2.png",
+      "images/projects/17.png"
+    ]
+  },
+  {
+    "title": "Residence",
+    "meta": [
+      { "k": "Type", "v": "Residential" },
+      { "k": "Programme", "v": "2 BHK" },
+      { "k": "Area", "v": "~200 m²" }
+    ],
+    "description": "Working drawings for a 2 BHK residence with a built-up area of approximately 200 m². The set includes the ground floor plan, first floor plan, elevations and detail drawings.",
+    "cover": "images/projects/view_2_1758978626465.png",
+    "images": [
+      "images/projects/view_3_1758978626465.png",
+      "images/projects/view_1_1758978626465.png",
+      "images/projects/11.png",
+      "images/projects/12.png",
+      "images/projects/13.png",
+      "images/projects/14.png"
+    ]
+  },
+  {
+    "title": "Beauty Salon",
+    "meta": [
+      { "k": "Type", "v": "Interior" },
+      { "k": "Scope", "v": "Reception & layout" },
+      { "k": "Area", "v": "230 m²" }
+    ],
+    "description": "Assisted in designing reception tables for beauty salons and residential apartments, focusing on client requirements, spatial constraints, and aesthetics. Conducted on-site measurements and coordinated with contractors to ensure accuracy in execution, gaining hands-on experience in furniture installation and finishing.",
+    "cover": "images/projects/25.png",
+    "images": [
+      "images/projects/29.png",
+      "images/projects/26.png",
+      "images/projects/27.png",
+      "images/projects/30.png"
+    ]
+  }
+]

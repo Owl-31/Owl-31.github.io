@@ -3,9 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aniket Singh</title>
+    <title>Aniket Singh — Architecture Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Aniket Singh, Bachelor of Architecture student at NIT Hamirpur — design, planning and architectural visualisation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,15 +23,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="js/scripts.js"></script>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="inner-width">
-        <a href="" class="logo">Aniket Singh</a>
+        <a href="#home" class="logo">
+          <span class="logo-name" id="logo-name">Aniket Singh</span>
+          <span class="logo-tag" id="logo-tag">B.Arch &middot; Architect</span>
+        </a>
         <button class="menu-toggler">
           <span></span>
           <span></span>
@@ -34,355 +40,177 @@
         <div class="navbar-menu">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#education">Education</a>
-          <a href="#skills">Skills</a>
           <a href="#works">Projects</a>
+          <a href="#education">Experience</a>
+          <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
     </nav>
+
     <!-- Home -->
     <section id="home">
+      <!-- Blueprint line-drawing animation -->
+      <svg
+        class="blueprint"
+        viewBox="0 0 600 420"
+        preserveAspectRatio="xMidYMid meet"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <!-- ground line -->
+        <path class="bp" d="M40 380 H560" />
+        <!-- main building outline -->
+        <path class="bp" d="M120 380 V150 L300 70 L480 150 V380" />
+        <!-- roof underline -->
+        <path class="bp" d="M120 150 H480" />
+        <!-- floor divisions -->
+        <path class="bp" d="M120 230 H480" />
+        <path class="bp" d="M120 305 H480" />
+        <!-- left windows -->
+        <path class="bp" d="M150 175 h45 v35 h-45 Z" />
+        <path class="bp" d="M150 255 h45 v30 h-45 Z" />
+        <path class="bp" d="M150 330 h45 v30 h-45 Z" />
+        <!-- right windows -->
+        <path class="bp" d="M405 175 h45 v35 h-45 Z" />
+        <path class="bp" d="M405 255 h45 v30 h-45 Z" />
+        <path class="bp" d="M405 330 h45 v30 h-45 Z" />
+        <!-- central entrance -->
+        <path class="bp" d="M270 380 V300 a30 30 0 0 1 60 0 V380" />
+        <!-- dimension marks -->
+        <path class="bp bp-thin" d="M40 400 H560" />
+        <path class="bp bp-thin" d="M40 394 V406" />
+        <path class="bp bp-thin" d="M300 394 V406" />
+        <path class="bp bp-thin" d="M560 394 V406" />
+        <!-- compass / detail circle -->
+        <circle class="bp" cx="300" cy="70" r="10" />
+      </svg>
+
       <div class="inner-width">
         <div class="content">
-          <h1>Hi there! I'm Aniket singh</h1>
-          <h2> </h2>
+          <span class="eyebrow" id="hero-eyebrow"></span>
+          <h1 id="hero-name">Aniket Singh</h1>
+          <h2 class="hero-role-line">
+            <span class="hero-role-prefix">Aspiring</span>
+            <span class="hero-role" id="hero-role"></span>
+          </h2>
+          <p class="hero-objective" id="hero-objective"></p>
           <div class="sm">
-            <!-- TODO -->
-            <!-- <a href="" class="fab fa-github"></a> -->
-            <a href="mailto:aniket.hp2004@gmail.com" class="fa fa-envelope"></a>
-            <!-- <a href="" class="fab fa-linkedin-in"></a> -->
-            <!-- <a href="" class="fab fa-goodreads"></a> -->
+            <a id="hero-email" href="#" class="fa fa-envelope" aria-label="Email"></a>
           </div>
           <div class="buttons">
-            <a href="#contact">Contact Me</a>
-            <a href="https://drive.google.com/file/d/1_x6t-M1I9G9gIKYFfbD6TgAMS7cS23f_/view?usp=drivesdk">Download CV</a>
+            <a href="#works" class="btn-line solid">View Work</a>
+            <a id="hero-cv" href="#" class="btn-line" target="_blank" rel="noopener">Download CV</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Home -->
     <!-- About -->
     <section id="about">
       <div class="inner-width">
-        <h1 class="section-title">
-          About Me : Innovative design with a sustainable vision
-        </h1>
-        <div class="about-content">
-          <!-- TODO -->
-          <img src="\images\me.jpg" class="about-pic" alt="" srcset="" />
-          <div class="about-text">
-            <h2>Hey there!! Navigating the landscape with a Blend of Expertise!!</h2>
-
-            <p>
-              As an architecture student, I am deeply passionate about the power of design to shape experiences, transform spaces, and positively impact communities. For me, architecture is not just about constructing buildings, but about creating environments that are functional, sustainable, and inspiring. I am fascinated by the way thoughtful design can blend aesthetics with practicality, respect the natural environment, and respond to human needs.
-
+        <div class="section-head reveal">
+          <span class="eyebrow">01 &mdash; About</span>
+          <h1 class="section-title">
+            Designing spaces with a <span class="accent">sustainable vision</span>
+          </h1>
+        </div>
+        <div class="about-content reveal">
+          <div class="about-pic-wrap">
+            <img src="images/me.jpg" class="about-pic" alt="Aniket Singh" />
           </div>
+          <div class="about-text" id="about-text"></div>
         </div>
       </div>
     </section>
-    <!-- About -->
 
-    <!-- Education -->
+    <!-- Works / Projects -->
+    <section id="works" class="dark">
+      <div class="inner-width">
+        <div class="section-head reveal">
+          <span class="eyebrow">02 &mdash; Selected Work</span>
+          <h1 class="section-title">Projects</h1>
+          <p class="section-intro">
+            A selection of academic, competition and professional projects across
+            healthcare, institutional, residential and interior design.
+          </p>
+        </div>
+        <div class="projects" id="projects"></div>
+      </div>
+    </section>
+
+    <!-- Experience & Education -->
     <section id="education" class="dark">
       <div class="inner-width">
-        <h1 class="section-title">Education & Experiences</h1>
-        <div class="time-line">
-          <div class="block">
-            <h4>June 2025- July2025</h4>
-            <h3><img src="images\job-logo\falcon.jpg">Trainee</h3>
-            <p>
-              At Falcon Interiors, I contributed to a variety of interior design projects, focusing on beauty salons, small cafés, and residential apartment redesigns. This experience enhanced my understanding of interior design principles, client-driven customization, and practical execution of design ideas.
-          </div>
-
-          
-          <div class="block">
-            <h4>Nov 2022- July 2027</h4>
-            <h3><img src="\images\job-logo\national_institute_of_technology_hamirpur_nit_hamirpur_logo.jpeg">Bachelors in Architecture</h3>
-            <p>
-              Currently pursuing my Bachelor of Architecture (B.Arch) from National Institute of Technology (NIT), Hamirpur, one of India’s premier technical institutions. My academic journey here has provided me with a strong foundation in architectural design, construction technology, while also encouraging critical thinking and creativity. Being in an institute that emphasizes both technical excellence and innovation, I have developed a keen interest in architectural design practices and the integration of functionality with aesthetics. <br><br>
-              <b>Relavant Courses</b> : Building Construction, Architectural Design
-            </p>
-          </div>
-          
-          <div class="block">
-            <h4>Jan 2023- April 2024</h4>
-            <h3><img src="\images\job-logo\Screenshot 2025-09-11 232107.png">Team member and Co ordinator @ Design N Deco club</h3>
-            <p>
-              As a team coordinator, I led the campus decoration initiatives for the annual Nimbus 2k23 and Nimbus 2k24 Fest. My responsibilities included wall paintings, thematic installations, and designing the entrance gate to the fest grounds.
-            </p>
-          </div>
-
-          <div class="block">
-            <h4>March 2020- July 2022</h4>
-            <h3><img src="\images\job-logo\images.png">Secondary Education</h3>
-            <p>
-              Completed my secondary education at Him Academy Public School, where I developed a strong academic foundation and nurtured my interest in creative thinking, problem-solving, and design. My school years instilled in me the values of discipline, curiosity, and perseverance<br><br>
-              
-          </div>
-          
+        <div class="section-head reveal">
+          <span class="eyebrow">03 &mdash; Journey</span>
+          <h1 class="section-title">Experience &amp; Education</h1>
         </div>
+        <div id="timeline"></div>
       </div>
     </section>
-    <!-- Education -->
+
     <!-- Skills -->
     <section id="skills">
       <div class="inner-width">
-        <h1 class="section-title">
-          Skills
-        </h1>
-        <div class="skills">
-          <img src="images\skills-logo\AUTOCAD.png">
-          <img src="images\skills-logo\REVIT.png">
-          <img src="images\skills-logo\PHOTOSHOP.png">
-          <img src="images\skills-logo\images (1).png">
-          <img src="images\skills-logo\images.png">
-          <p><b>
-            Versatile and eager to learn. Blending analytical prowess with a commitment to new skills for effective problem-solving.
-          </b></p>
+        <div class="section-head reveal">
+          <span class="eyebrow">04 &mdash; Toolkit</span>
+          <h1 class="section-title">Software &amp; Skills</h1>
         </div>
+        <div class="skills-grid reveal" id="skills-grid"></div>
+        <p class="skills-note reveal" id="skills-note"></p>
       </div>
     </section>
-    <!-- Skills -->
 
-    <!-- Works -->
-    <section id="works" class="dark">
+    <!-- Contact -->
+    <section id="contact">
       <div class="inner-width">
-        <h1 class="section-title">Projects</h1>
-
-        <div class="projects">
-
-          <!-- 🧩 Project 1 -->
-          <div class="project">
-            <div class="project-main">
-              <a href="images/projects/hospital 8.png" class="gallery1">
-                <img src="images/projects/hospital 8.png" alt="Hospital Project" />
-              </a>
+        <div class="section-head reveal">
+          <span class="eyebrow">05 &mdash; Get in Touch</span>
+          <h1 class="section-title">Let's build something <span class="accent">considered</span>.</h1>
+        </div>
+        <div class="contact-wrap reveal">
+          <div class="contact-aside">
+            <h2 id="contact-heading"></h2>
+            <div class="line">
+              <i class="fa fa-envelope"></i>
+              <a id="contact-email" href="#"></a>
             </div>
-
-            <div class="project-thumbs">
-              <a href="images/projects/hospital 6.png" class="gallery1">
-                <img src="images/projects/hospital 6.png" alt="Hospital 6" />
-              </a>
-              <a href="images/projects/hospital 7.png" class="gallery1">
-                <img src="images/projects/hospital 7.png" alt="Hospital 7" />
-              </a>
-              <a href="images/projects/hospital 1.png" class="gallery1">
-                <img src="images/projects/hospital 1.png" alt="Hospital 1" />
-              </a>
-              <a href="images/projects/hospital 2.png" class="gallery1">
-                <img src="images/projects/hospital 2.png" alt="Hospital 2" />
-              </a>
-              <a href="images/projects/hospital 5.png" class="gallery1">
-                <img src="images/projects/hospital 5.png" alt="Hospital 5" />
-              </a>
-              <a href="images/projects/2.png" class="gallery2">
-                <img src="images/projects/3.png" alt="Pavilion 2" />
-              </a>
-              <a href="images/projects/3.png" class="gallery2">
-                <img src="images/projects/3.png" alt="Pavilion 2" />
-              </a>
-              <a href="images/projects/2.png" class="gallery2">
-                <img src="images/projects/2.png" alt="Pavilion 3" />
-              </a>
-            </div>
-
-            <div class="project-info">
-              <h3>Hospital</h3>
-              <div class="cat"> A 200 bedded general hospital located at Hamirpur. This general hospital includes Chief Medical Officer/ Medical Superintendent office, Emergency Room, Out Patient Department, In Patient Department, Operation Theatres, Diagnostic Services, Maternity ward, Administrative Block, Private/Semi Private and General wards
-
-</div>
+            <div class="line">
+              <i class="fa fa-map-marker-alt"></i>
+              <span id="contact-location"></span>
             </div>
           </div>
-
-          <!-- 🧩 Project 2 -->
-          <div class="project">
-            <div class="project-main">
-              <a href="images/projects/view_2_1758978626465.png" class="gallery1">
-                <img src="images/projects/view_2_1758978626465.png" alt="Hospital Project" />
-              </a>
-            </div>
-
-            <div class="project-thumbs">
-              <a href="images/projects/view_3_1758978626465.png" class="gallery1">
-                <img src="images/projects/view_3_1758978626465.png" alt="Hospital 6" />
-              </a>
-              <a href="images/projects/view_1_1758978626465.png" class="gallery1">
-                <img src="images/projects/view_1_1758978626465.png" alt="Hospital 7" />
-              </a>
-              <a href="images/projects/11.png" class="gallery1">
-                <img src="images/projects/11.png" alt="Hospital 1" />
-              </a>
-              <a href="images/projects/12.png" class="gallery1">
-                <img src="images/projects/12.png" alt="Hospital 2" />
-              </a>
-              <a href="images/projects/13.png" class="gallery1">
-                <img src="images/projects/13.png" alt="Hospital 5" />
-              </a>
-              <a href="images/projects/14.png" class="gallery2">
-                <img src="images/projects/14.png" alt="Pavilion 2" />
-              </a>
-              <a href="images/projects/15.png" class="gallery2">
-                <img src="images/projects/15.png" alt="Pavilion 2" />
-              </a>
-              
-            </div>
-
-            <div class="project-info">
-              <h3>Residence</h3>
-              <div class="cat">Working drawing of the 2bhk residence. Built up area approx 200m2. Includes ground floor plan, first floor plan, elevations and detail drawing </div>
-            </div>
-          </div>
-
-          <!-- 🧩 Project 3 -->
-          <div class="project">
-            <div class="project-main">
-              <a href="images/projects/pavillion 3.png" class="gallery1">
-                <img src="images/projects/pavillion 3.png" alt="Hospital Project" />
-              </a>
-            </div>
-
-            <div class="project-thumbs">
-              <a href="images/projects/pavillion 4.png" class="gallery1">
-                <img src="images/projects/pavillion 4.png" alt="Hospital 6" />
-              </a>
-              <a href="images/projects/pavillion 1.png" class="gallery1">
-                <img src="images/projects/pavillion 1.png" alt="Hospital 7" />
-              </a>
-              <a href="images/projects/pavillion 2.png" class="gallery1">
-                <img src="images/projects/pavillion 2.png" alt="Hospital 1" />
-              </a>
-              <a href="images/projects/17.png" class="gallery2">
-                <img src="images/projects/17.png" alt="Pavilion 3" />
-              </a>
-              </a>
-            </div>
-
-            <div class="project-info">
-              <h3>Pavillion</h3>
-              <div class="cat">A pavilion is to be redesigned at Pragati Maidan, New Delhi to accommodate exhibitions of all scales including small exhibits to large equipment and shall have space for permanent as well as temporary exhibits. It includes Entrance hall/Lobby/Foyer, Main exhibition hall, Temporary exhibition hall, Storage room, Administration office including meeting room, Cafeteria/Food Court, Toilet</div>
-            </div>
-          </div>
-
-          <!-- 🧩 Project 4 -->
-          <div class="project">
-            <div class="project-main">
-              <a href="iimages/projects/ADMIN.png" class="gallery1">
-                <img src="images/projects/ADMIN.png" alt="Hospital Project" />
-              </a>
-            </div>
-
-            <div class="project-thumbs">
-              <a href="images\projects\view_1_1759249233669.png" class="gallery1">
-                <img src="images\projects\view_1_1759249233669.png" alt="Hospital 6" />
-              </a>
-              <a href="images/projects/ADMIN2.png" class="gallery1">
-                <img src="images/projects/ADMIN2.png" alt="Hospital 7" />
-              </a>
-               <a href="images/projects/ADMIN3.png" class="gallery1">
-                <img src="images/projects/ADMIN3.png" alt="Hospital 7" />
-              </a>
-               <a href="images/projects/ADMIN4.png" class="gallery1">
-                <img src="images/projects/ADMIN4.png" alt="Hospital 7" />
-              </a>
-              <a href="images\projects\WhatsApp Image 2025-11-02 at 15.29.26_19e6cd03.jpg" class="gallery1">
-                <img src="images\projects\WhatsApp Image 2025-11-02 at 15.29.26_19e6cd03.jpg" alt="Hospital 7" />
-              </a>
-
-              </a>
-            </div>
-
-            <div class="project-info">
-              <h3>Admin Block of NIT Hamirpur Campus</h3>
-              <div class="cat">Reimagining the NIT Hamirpur Campus Inclusive, Sustainable & Accessible University Campus Design (on a flat site). The pictures are Administration block of NIT Hamirpur Campus which includes Student and registrar office, accounts and finance department, admission and enquiry department, non technical staff room, Dean, Director and DSW room, Meeting room and archive room. Built up area: 1360m2</div>
-            </div>
-          </div>
-
-          
-          <!-- 🧩 Project 5 -->
-          <div class="project">
-            <div class="project-main">
-              <a href="images/projects/25.png" class="gallery1">
-                <img src="images/projects/25.png" alt="Hospital Project" />
-              </a>
-            </div>
-
-            <div class="project-thumbs">
-              <a href="images/projects/29.png" class="gallery1">
-                <img src="images/projects/29.png" alt="Hospital 6" />
-              </a>
-              <a href="images/projects/26.png" class="gallery1">
-                <img src="images/projects/26.png" alt="Hospital 7" />
-              </a>
-                <a href="images/projects/27.png" class="gallery1">
-                <img src="images/projects/27.png" alt="Hospital 7" />
-              </a>
-              </a>
-                <a href="images/projects/30.png" class="gallery1">
-                <img src="images/projects/30.png" alt="Hospital 7" />
-              </a>
-
-              </a>
-            </div>
-
-            <div class="project-info">
-              <h3>Beauty Saloon</h3>
-              <div class="cat"></h3>
-              <div class="cat">Assisted in designing reception tables primarily in beauty salons,
-residential apartments, focusing on client requirements, spatial
-constraints, and aesthetics. Conducted on-site measurements and coordinated with contractors to
-ensure accuracy in execution.
-Gained hands-on experience in furniture installation and finishing
-processes. built up area: 230m2</div>
-            </div>
-          </div>
-
-        <!-- Add project above -->
+          <form action="" method="POST" class="contact-form">
+            <input name="name" type="text" class="name" placeholder="Your full name" />
+            <input name="email" type="email" class="email" placeholder="Your email" />
+            <input name="subject" type="text" class="subject" placeholder="Subject" />
+            <textarea name="message" class="message" id="contact-message"></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+          </form>
         </div>
       </div>
     </section>
 
-    <!-- Works -->
-    <!-- Contact -->
-    <section id="contact" >
-      <div class="inner-width" >
-        <h1 class="section-title">
-          Contact Me
-        </h1>
-        <!-- TODO -->
-        <form action="" method="POST" class="contact-form">
-          <input name="name" type="text" class="name" placeholder="Your Full Name" />
-          <input name="email" type="email" class="email" placeholder="Your Email" />
-          <input name="subject" type="text" class="subject" placeholder="Subject" />
-          <textarea name="message" value="Send Message" class="message" placeholder="Got thoughts about my work? Please feel free to contact me anytime soon."></textarea>
-          <input type="submit" value="Send Message" class="btn" />
-        </form>
-      </div>
-    </section>
-    <!-- Contact -->
     <!-- Footer -->
     <footer>
       <div class="inner-width">
-        <div class="copyright">
-          &copy; Build this website with: A sprinkle of HTML, a dash of CSS, a pinch of JavaScript 💻
-        </div>
+        <div class="foot-name" id="foot-name">Aniket Singh</div>
+        <div class="foot-tag">Architecture &middot; Design &middot; Planning</div>
         <div class="sm">
-          <!-- TODO -->
-          <a href="" class="fab fa-github"></a>
-          <a href="" class="fa fa-envelope"></a>
-          <a href="" class="fab fa-linkedin-in"></a>
-          <a href="" class="fab fa-goodreads"></a>
-        </div> 
+          <a id="foot-email" href="#" class="fa fa-envelope" aria-label="Email"></a>
+        </div>
+        <div class="copyright">
+          &copy; <span id="year"></span> <span id="foot-copy-name">Aniket Singh</span>. All rights reserved.
+        </div>
       </div>
     </footer>
-    <!-- Footer -->
-    <!-- GO Top  -->
-    <button class="gotop fas fa-arrow-up"></button>
-    <!-- GO Top  -->
-    <script src="./js/scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
+    <!-- Go to top -->
+    <button class="gotop fas fa-arrow-up"></button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

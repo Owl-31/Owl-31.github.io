@@ -1,0 +1,47 @@
+[
+  {
+    "kind": "experience",
+    "current": true,
+    "date": "Present",
+    "role": "Architectural Designer",
+    "org": "Design Associates INC",
+    "logo": "",
+    "description": "Working on hospital projects across <b>Delhi NCR</b> and <b>Northeast India</b>, contributing to the design planning stage and the development of <b>sections and elevations</b>. The role has deepened my understanding of healthcare planning, statutory requirements, and translating complex programmes into coherent architectural drawings."
+  },
+  {
+    "kind": "experience",
+    "current": false,
+    "date": "June 2025 – July 2025",
+    "role": "Trainee",
+    "org": "Falcon Interiors",
+    "logo": "images/job-logo/falcon.jpg",
+    "description": "Contributed to a variety of interior design projects, focusing on beauty salons, small cafés, and residential apartment redesigns. This experience enhanced my understanding of interior design principles, client-driven customization, and the practical execution of design ideas."
+  },
+  {
+    "kind": "education",
+    "current": false,
+    "date": "Nov 2022 – July 2027",
+    "role": "Bachelor of Architecture",
+    "org": "NIT Hamirpur",
+    "logo": "images/job-logo/national_institute_of_technology_hamirpur_nit_hamirpur_logo.jpeg",
+    "description": "Currently pursuing my Bachelor of Architecture (B.Arch) at the National Institute of Technology, Hamirpur — one of India's premier technical institutions. The programme has given me a strong foundation in architectural design and construction technology while encouraging critical thinking and creativity.<br><br><b>Relevant coursework:</b> Building Construction, Architectural Design."
+  },
+  {
+    "kind": "education",
+    "current": false,
+    "date": "Jan 2023 – April 2024",
+    "role": "Coordinator",
+    "org": "Design N Deco Club",
+    "logo": "images/job-logo/Screenshot 2025-09-11 232107.png",
+    "description": "Led campus decoration initiatives for the annual Nimbus 2k23 and Nimbus 2k24 fests. Responsibilities included wall paintings, thematic installations, and designing the entrance gate to the fest grounds."
+  },
+  {
+    "kind": "education",
+    "current": false,
+    "date": "March 2020 – July 2022",
+    "role": "Secondary Education",
+    "org": "Him Academy Public School",
+    "logo": "images/job-logo/images.png",
+    "description": "Built a strong academic foundation and nurtured an interest in creative thinking, problem-solving, and design. These years instilled in me the values of discipline, curiosity, and perseverance."
+  }
+]

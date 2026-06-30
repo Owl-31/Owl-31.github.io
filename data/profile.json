@@ -1,0 +1,27 @@
+{
+  "name": "Aniket Singh",
+  "logoTag": "B.Arch · Architect",
+  "heroEyebrow": "Bachelor of Architecture · NIT Hamirpur",
+  "heroRoles": ["Architect", "Designer", "Thinker", "Maker"],
+  "objective": "Final-year B.Arch student seeking an architecture internship or graduate role — focused on healthcare, institutional and residential design.",
+  "cvLink": "https://drive.google.com/file/d/1_x6t-M1I9G9gIKYFfbD6TgAMS7cS23f_/view?usp=drivesdk",
+  "email": "aniket.hp2004@gmail.com",
+  "location": "NIT Hamirpur, Himachal Pradesh, India",
+  "about": {
+    "title": "Blending aesthetics with purpose, and the built with the natural.",
+    "lead": "Final-year Bachelor of Architecture student with hands-on studio and professional experience across healthcare, institutional, residential and interior projects.",
+    "paragraphs": [
+      "As an architecture student, I am deeply passionate about the power of design to shape experiences, transform spaces, and positively impact communities. For me, architecture is not just about constructing buildings, but about creating environments that are functional, sustainable, and inspiring.",
+      "I am fascinated by the way thoughtful design can blend aesthetics with practicality, respect the natural environment, and respond to human needs — from healthcare and institutional projects to intimate residential and interior work."
+    ],
+    "stats": [
+      { "num": "5+", "lbl": "Design Projects" },
+      { "num": "2027", "lbl": "Expected B.Arch" },
+      { "num": "3+", "lbl": "Studio Experiences" }
+    ]
+  },
+  "contact": {
+    "heading": "Open to internships, design collaborations and conversations about architecture.",
+    "formIntro": "Got thoughts about my work? Feel free to reach out anytime."
+  }
+}
